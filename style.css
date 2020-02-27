@@ -13,14 +13,10 @@ html {
     overflow: hidden;
 }
 
-
-
-
 body {
     background-repeat: no-repeat;
 }
     
-
 
 #duck {
     margin: 50px;
@@ -39,7 +35,7 @@ body {
     background-color: black;
     width: 15%;
     height: 25%;
-    min-height: max-content;
+    overflow: scroll;
     color: #ffffff;
     top: 5%;
     right: 5%;
@@ -65,15 +61,20 @@ body {
     color: #06e515;
 }
 
-button {
-    
+#restart {
+    position: fixed;
     background-color: green;
     color: white;
     border: none;
     width: 100px;
     height: 30px;
     border-radius: 25px;
-    margin-top: 3.5rem;
-    margin-bottom: 1rem;
+    top: 25%;
 
+}
+
+#restart:hover {
+    opacity: .5;
+    transition: ease-in 500ms;
+    cursor: pointer;
 }
