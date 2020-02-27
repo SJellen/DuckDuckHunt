@@ -10,14 +10,17 @@ html {
     border: solid black;
     border-width: 40px;
     display: block;
+    overflow: hidden;
 }
+
+
 
 
 body {
     background-repeat: no-repeat;
-    
-    
 }
+    
+
 
 #duck {
     margin: 50px;
@@ -36,24 +39,40 @@ body {
     background-color: black;
     width: 15%;
     height: 15%;
+    min-height: fit-content;
     color: #ffffff;
     top: 5%;
     right: 5%;
-    border: 2px solid greenyellow;
+    border: 2px solid rgb(85, 74, 12);
     border-radius: 10px;
     display: flex;
     position: fixed;
     flex-direction: column;
     align-items: center;
+   
 }
 
 #scoreText {
-    margin-top: 15%;
-    font-size: 1.5em;
+    margin-top: 10%;
+    font-size: 2em;
+    font-weight: 900;
+
 }
 
 #score-counter {
     font-size: 3.1em;
     font-weight: bold;
     color: #06e515;
+}
+
+button {
+    background-color: green;
+    color: white;
+    border: none;
+    width: 100px;
+    height: 30px;
+    border-radius: 25px;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+
 }
