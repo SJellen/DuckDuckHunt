@@ -10,17 +10,18 @@ html {
     border: solid black;
     border-width: 40px;
     display: block;
-    overflow: hidden;
+    
 }
 
 body {
     background-repeat: no-repeat;
+    max-height: 90%;
 }
     
 
 #duck {
     margin: 50px;
-    width: 200px;
+    width: 100px;
     height: auto;
     position: absolute;
     left: 100px;
@@ -45,6 +46,8 @@ body {
     position: fixed;
     flex-direction: column;
     align-items: center;
+    min-height: fit-content;
+    min-width: fit-content;
    
 }
 
@@ -59,10 +62,12 @@ body {
     font-size: 3.1em;
     font-weight: bold;
     color: #06e515;
+    margin-bottom: 2rem;
+    
 }
 
 #restart {
-    position: fixed;
+   
     background-color: green;
     color: white;
     border: none;
@@ -70,6 +75,7 @@ body {
     height: 30px;
     border-radius: 25px;
     top: 25%;
+    margin: 1rem;
 
 }
 

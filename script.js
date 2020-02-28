@@ -33,7 +33,7 @@ const moveDuck = () => {
 
 
 
-const totalCount = 5;
+const totalCount = 7;
 function ChangeIt() 
 {
 let num = Math.ceil( Math.random() * totalCount );
