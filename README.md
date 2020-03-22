@@ -2,6 +2,8 @@
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-1-blue.svg?cacheSeconds=2592000" />
 </p>
+
+
 ![duck hunt screenshot](https://raw.githubusercontent.com/SJellen/DuckDuckHunt/master/images/ScreenShot.png)
 
 > Basic Duck Hunt clone.
